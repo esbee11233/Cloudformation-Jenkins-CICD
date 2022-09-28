@@ -826,18 +826,10 @@ Resources:
         - Key: Name
           Value: Prod-Log
 
-  s3Bucket2:
+  s3Bucket4:
     Type: AWS::S3::Bucket
     Properties: 
-      BucketName: ventura-prod-logging-bucket-2
-      Tags:
-        - Key: Name
-          Value: Prod-Log
-
-  s3Bucket3:
-    Type: AWS::S3::Bucket
-    Properties: 
-      BucketName: ventura-prod-logging-bucket-3
+      BucketName: ventura-prod-logging-bucket-4
       Tags:
         - Key: Name
           Value: Prod-Log
